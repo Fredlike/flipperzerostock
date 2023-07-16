@@ -1,0 +1,91 @@
+@font-face {
+  font-family: pixelated;
+  src: url(fonts/VT323-Regular.ttf);
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 212, 146, 1) 100%
+  );
+}
+
+.main {
+  position: relative;
+  top: 203px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+.element {
+  transition: transform 0.3s ease;
+}
+
+.element:hover {
+  transform: scale(1.1);
+}
+.container {
+  position: relative;
+}
+
+.textdiv {
+  position: absolute;
+  width: 798px;
+  top: 434px;
+  height: 50px;
+}
+.flipperimg {
+  position: absolute;
+  height: 0px;
+  right: 0px;
+}
+.upperimg {
+  position: absolute;
+  height: 10px;
+  left: 797px;
+  width: 377px;
+  height: 100px;
+}
+.alltext {
+  position: absolute;
+  height: 10px;
+}
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: pixelated;
+  font-size: large;
+  cursor: pointer;
+}
+
+.smoothbutton {
+  transition: all 0.2s ease-in-out;
+}
+
+.smoothbutton:hover {
+  transform: scale(1.1);
+}
+.button:hover {
+  transform: scale(1.1);
+}
+
+.links {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+h1 {
+  font-family: pixelated;
+}
+p {
+  font-family: pixelated;
+}
+h3 {
+  font-family: pixelated;
+}
